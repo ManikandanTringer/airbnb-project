@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0px;
+  font-family:sans-serif;
 }
+nav{
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgb(0,0,0,0.1);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.airbnb-logo{
+  max-width: 100px;
+}
+section{
+  padding: 20px;
+}
+.head{
   display: flex;
   flex-direction: column;
+}
+.player-album{
+  max-width: 400px;
+  align-self: center;
+}
+section > h1{
+  margin-top: 16px;
+}
+section > p{
+  margin-top: 0;
+}
+.card{
+  font-size: 12px;
+  height: 100px;
+  width: 12110px;
+
+}
+card-image{
+  width: 50px;
+  height: 80px;
+  border-radius: 9px;
+  margin-right: 30px;
+}
+.separate-card{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.card-star{
+  height: 14px;
 }
+.gray{
+  color: #918E9B;
+}
+.bold{
+  font-weight: bold;
+}
+.card-info{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 90px;
+ 
+}
+.card-image{
+  height: 250px;
+  width: 150px;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.card{
+  height: 200px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
 }
